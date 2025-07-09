@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'samsung';
+    src: url('./SamsungSharpSansBd.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsung-400';
+    src: url('./SamsungOne-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsung-700';
+    src: url('./SamsungOne-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+  
