@@ -1,11 +1,11 @@
 const Breadcrumb = () => {
   return (
-    <div className="bg-white py-4">
+    <div className="bg-white text-[#757575] font-samsung700" style={ { paddingTop: '24px'}}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-6">
-        <nav className="flex items-center text-sm text-gray-500 space-x-1" aria-label="breadcrumb">
-          <a href="#" className="hover:text-gray-700">Galaxy A</a>
-          <span className="text-gray-400">/</span>
-          <a href="#" className="hover:text-gray-700">Detail produk</a>
+        <nav className="flex items-center text-sm" aria-label="breadcrumb">
+          <a href="#" className="border-b border-[#757575]">Galaxy A</a>
+          <span className="mx-3">/</span>
+          <a href="#" className="">Detail produk</a>
         </nav>
       </div>
     </div>

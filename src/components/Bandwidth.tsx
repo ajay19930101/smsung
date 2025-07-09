@@ -12,7 +12,7 @@ const Chevron = () => (
 
 const Breadcrumb = () => {
   return (
-    <div className="bg-white py-4 border-b border-gray-200 text-xs text-gray-500">
+    <div className="bg-white py-4 text-xs text-gray-500">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center flex-wrap text-sm">
           <a href="/" className="hover:underline">Home</a>
@@ -32,7 +32,7 @@ const Breadcrumb = () => {
 const Bandwidth = () => {
     return (
       <>
-      <div className="bg-[#f7f7f7] py-4">
+      <div className="bg-[#f7f7f7] py-4 font-samsung400">
         <div className="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-6 text-xs text-[#313131]">
             <p className="py-2">* Jaringan: Bandwidth yang didukung oleh perangkat dapat berbeda-beda tergantung wilayah dan provider internet.</p>
             <p className="py-2">* Memori yang tersedia untuk pengguna: Memori pengguna lebih sedikit dari total memori karena penyimpanan sistem operasi dan perangkat lunak yang digunakan untuk mengoperasikan fitur-fitur perangkat. Memori pengguna yang sebenarnya dapat berbeda-beda tergantung operator dan dapat berubah setelah melakukan pembaruan perangkat lunak.</p>
