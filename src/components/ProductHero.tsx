@@ -70,10 +70,23 @@ const ProductHero = () => {
   return (
     <div className="bg-white" ref={scrollRef}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 py-8">
-        <div className="flex gap-16">
-          <div className="w-1/2 ">
+        <div className="flex flex-col md:flex-row md:gap-16">
+          <div className='w-full md:hidden'>
+              <div className="flex items-center justify-between mb-6">
+                <h1 className="text-2xl font-bold text-center">Galaxy A25 5G</h1>
+                <svg className="icon h-6 w-6" focusable="false" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                <path d="M82.659 46.562c-.237.336-1.321 1.867-1.736 2.413-6.187 8.141-26.914 24.719-32.859 29.329L48 78.25l-.064.054c-5.945-4.61-26.672-21.188-32.857-29.327a136.36 136.36 0 01-1.737-2.415A19.366 19.366 0 0110.5 36.449c0-10.729 8.748-19.457 19.5-19.457a19.549 19.549 0 0115.957 8.28L48 28.171l2.044-2.899A19.548 19.548 0 0166 16.992c10.753 0 19.5 8.728 19.5 19.457 0 3.577-.982 7.072-2.841 10.113M66 11.992a24.556 24.556 0 00-18 7.875 24.552 24.552 0 00-18-7.875c-13.509 0-24.5 10.971-24.5 24.457 0 4.53 1.254 8.957 3.625 12.802l.086.13s1.391 1.967 1.885 2.619c3.235 4.257 10.172 10.853 20.619 19.603a514.58 514.58 0 0010.291 8.386c4.905 3.893 4.905 3.893 5.706 3.986l.288.033.289-.033c.8-.093.8-.093 5.706-3.986a517.926 517.926 0 0010.29-8.386c10.447-8.75 17.384-15.346 20.62-19.604.494-.651 1.884-2.618 1.884-2.618l.086-.13A24.365 24.365 0 0090.5 36.449c0-13.486-10.99-24.457-24.5-24.457"></path>
+            </svg>
+              </div>
+              <p className="text-sm font-samsung400 mb-6">SM-A256EZKGXID</p>
+              <div className="flex items-center space-x-2 mb-6">
+                <Star className="w-4 h-4 fill-current" />
+                <span className="text-sm text-gray-600">(4.1)</span>
+                <span className="text-sm text-gray-600">(32)</span>
+              </div>
+            </div>
+          <div className="w-full md:w-1/2">
           <div className='sticky top-[94px] space-y-4'>
-
             <div className="relative aspect-square bg-[#f7f7f7] rounded-lg overflow-hidden flex justify-center items-center">
               <img src={currentImages[0]} alt="Galaxy A25 5G" className="object-cover" height={684} />
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
@@ -113,8 +126,8 @@ const ProductHero = () => {
             </div>
           </div>
           </div>
-          <div className="w-1/2 space-y-8 px-4">
-            <div>
+          <div className="w-full md:w-1/2 space-y-8 px-4">
+            <div className='hidden md:block'>
               <div className="flex items-center justify-between mb-6">
                 <h1 className="text-3xl font-bold text-center">Galaxy A25 5G</h1>
                 <svg className="icon h-6 w-6" focusable="false" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
