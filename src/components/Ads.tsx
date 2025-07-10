@@ -53,7 +53,7 @@ export default function Alternatif() {
                 <span className="text-sm">(4.3)</span>
                 <span className="text-sm">(15)</span>
               </div>
-      <p className="text-sm font-bold mt-1">Rp 2.699.000</p>
+      <p className="text-sm font-bold mt-1">Rp 3.199.000</p>
       </div>
     </div>
 
@@ -69,7 +69,7 @@ export default function Alternatif() {
                 <span className="text-sm">(4.9)</span>
                 <span className="text-sm">(177)</span>
               </div>
-      <p className="text-sm font-bold mt-1">Rp 1.899.000</p>
+      <p className="text-sm font-bold mt-1">Rp 1.299.000</p>
       </div>
     </div>
     <div className="w-[204px] flex-shrink-0 bg-white rounded-lg">
