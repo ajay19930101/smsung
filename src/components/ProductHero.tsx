@@ -70,8 +70,10 @@ const ProductHero = () => {
   return (
     <div className="bg-white" ref={scrollRef}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div className="space-y-4">
+        <div className="flex gap-16">
+          <div className="w-1/2 ">
+          <div className='sticky top-[94px] space-y-4'>
+
             <div className="relative aspect-square bg-[#f7f7f7] rounded-lg overflow-hidden flex justify-center items-center">
               <img src={currentImages[0]} alt="Galaxy A25 5G" className="object-cover" height={684} />
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
@@ -110,8 +112,8 @@ const ProductHero = () => {
               </button>
             </div>
           </div>
-
-          <div className="space-y-8 px-4 sticky top-0 max-h-screen overflow-y-auto">
+          </div>
+          <div className="w-1/2 space-y-8 px-4">
             <div>
               <div className="flex items-center justify-between mb-6">
                 <h1 className="text-3xl font-bold text-center">Galaxy A25 5G</h1>
